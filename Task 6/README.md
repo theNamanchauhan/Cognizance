@@ -1,6 +1,9 @@
 # __UNCHARTED TREK__
+
+
 ![LandingPage Of TASK 3](https://github.com/theNamanchauhan/Cognizance/blob/master/Task%203/Web%201920%20%E2%80%93%201@2x.png?raw=true
 )
+
 ## **Theme**
 > Astronomy : Mini Encyclopedia for Our Universe
 ---
@@ -28,10 +31,25 @@ I will also be very intreseted to make a *prototype* from this webpage as well a
 Firstly, I would like to share something. I created a webpage or basically a landing page in Cultural education end semester project on the Topic _Mysterious Temples in india_  in my first semseter in college. While making the webpage it was very difficult for me to imagine a webpage and then try making it practically. Sometimes I have to delete whatever I had done because it was not looking good. Basically, I was lacking a kind of map or I can say a blueprint of my website which can guide me how I have to proceed and before writting the code for that particular thing I would get to know how it would look like and save my time by reducing errors.<br>
 When I get to know while doing cognizance task actually this was the solution, I was looking for. I really felt amazed and also enjoyed making a landing page in Adobe XD.
 Thank you Cognizance!! for Such a task.
-### __References__
+## References
+
+| Serial No.| Website Name| URL|
+| :-------- | :------- | :------------------------- |
+| 1. | Space.com|https://www.space.com/|
+| 2. | Wikipedia|https://en.wikipedia.org/wiki/Outer_space|
+| 3. | Adobe Stock|https://stock.adobe.com/|
+| 4. | Pexels|https://www.pexels.com/search/space/|
+| 5. | Flaticon|https://www.flaticon.com/icons|
+## *Authors*
 ---
-1. https://www.space.com/  
-2. https://en.wikipedia.org/wiki/Outer_space
-3. https://stock.adobe.com/
-4. https://www.pexels.com/search/space/
-5. https://www.flaticon.com/icons
+* [Naman Chauhan](https://www.github.com/theNamanchauhan)
+
+
+## Feedback
+---
+If you have any feedback, please reach out to us at unchartedtrek@gmail.com
+## Support
+---
+For support, email supportunchartedtrek@gmail.com or join our Slack channel.
+
+![Logo](https://github.com/theNamanchauhan/Cognizance/blob/master/Task%203/1645337317016.png?raw=true)
