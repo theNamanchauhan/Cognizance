@@ -1,0 +1,77 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .card {
+        @apply bg-white w-full md:max-w-xl border border-blue-100 shadow-lg md:max-h-[80vh] overflow-y-auto;
+    }
+    .btn-primary {
+        @apply py-2 mt-3 px-5 bg-violet-500 text-white font-semibold rounded-3xl shadow-md hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 focus:ring-opacity-75;
+    }
+    .todo-item {
+        @apply py-3 px-3 mt-3 mx-2 border-2 border-gray-200 rounded bg-white flex gap-3 items-center hover:bg-slate-50;
+    }
+    .round-box {
+        @apply w-5 h-5 border-4 border-cyan-500 rounded-full;
+    }
+    .todo-task {
+        @apply font-sans font-semibold text-black m-0 text-lg max-w-md max-h-[200px] overflow-x-hidden overflow-y-auto text-ellipsis;
+    }
+    .todo-time {
+        @apply block mt-1 font-light font-sans text-slate-700 text-sm;
+    }
+    .check-icon {
+        @apply h-[34px] w-[34px] ml-auto cursor-pointer text-purple-400 p-1;
+    }
+    .check-box {
+        @apply h-[24px] w-[24px] bg-purple-600 text-white rounded-full;
+    }
+    .delete-icon {
+        @apply h-[34px] w-[34px] ml-auto cursor-pointer text-red-400 p-1;
+    }
+    #task-list, #checked-list {
+        @apply max-h-[450px] overflow-y-auto;
+    }
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+#content {
+    margin-top: 40px;
+}
+
+textarea {
+    resize: none;
+}
+.checked-task,
+.checked-task:hover {
+    float: right;
+    cursor: pointer;
+    color: aqua;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.remove-task,
+.remove-task:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.complete-task,
+.complete-task:hover {
+    cursor: pointer;
+    color: grey;
+    text-decoration-line: line-through;
+}
