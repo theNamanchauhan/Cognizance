@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex" />
+    <title>Offline To Do</title>
+</head>
+
+<body class="bg-slate-100 mx-3">
+    <div class="container mx-auto mt-4 mt-md-11">
+        <h1 class="text-4xl text-cyan-500 font-bold">Todo-List</h1>
+        <div class="grid lg:grid-cols-2 gap-4 pt-10">
+            <div class="w-full md:max-w-xl mx-auto block">
+                <form action="#" id="form">
+                    <textarea id="addtask" class="w-full border-2 rounded-sm shadow-sm mt-2 p-2" style="height: 80px;"></textarea>
+                    <input type="submit" class="btn-primary" value="Add Task">
+                </form>
+            </div>
+            <div class="card mx-auto self-start p-3">
+                <div class="mx-auto mb-3">
+                    <h4 class="text-xl text-black font-serif font-semibold">Pending Tasks</h4>
+                </div>
+                <ul id="task-list"></ul>
+                <hr class="my-3"/>
+                <div class="mx-auto mb-3">
+                    <h4 class="text-xl text-black font-serif font-semibold">Completed Tasks</h4>
+                </div>
+                <ul id="checked-list"></ul>
+            </div>
+            <!--.six-->
+        </div>
+    </div>
+</body>
+
+</html>
